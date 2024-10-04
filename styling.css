@@ -1,0 +1,385 @@
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url(Roboto/Roboto-Black.ttf) 
+}
+@font-face {
+    font-family: 'Roboto-BlackItalic';
+    src: url(Roboto/Roboto-BlackItalic.ttf) 
+}
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(Roboto/Roboto-Bold.ttf) 
+}
+@font-face {
+    font-family: 'Roboto-BoldItalic';
+    src: url(Roboto/Roboto-BoldItalic.ttf) 
+}
+@font-face {
+    font-family: 'Roboto-Italic';
+    src: url(Roboto/Roboto-Light.ttf) 
+}
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url(Roboto/Roboto-Light.ttf) 
+}
+@font-face {
+    font-family: 'Roboto-LightItalic';
+    src: url(Roboto/Roboto-LightItalic.ttf) 
+}
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url(Roboto/Roboto-Medium.ttf) 
+}
+@font-face {
+    font-family: 'Roboto-MediumItalic';
+    src: url(Roboto/Roboto-MediumItalic.ttf) 
+}
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(Roboto/Roboto-Regular.ttf)
+}
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url(Roboto/Roboto-Thin.ttf) 
+}
+@font-face {
+    font-family: 'Roboto-ThinItalic';
+    src: url(Roboto/Roboto-ThinItalic.ttf) 
+}
+
+
+
+/*Page 1*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Section 1*/
+
+.header{
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000435;
+    padding: 20px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-logo h1 {
+    font-family: 'Roboto-Black', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    color: white;
+
+}
+
+.header-nav a {
+    font-family: 'Roboto-Light', sans-serif ;
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 16px;
+    
+}
+
+.header-nav a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    background-color: #000435;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content-left {
+    max-width: 50%;
+}
+
+.content-left h2 {
+    font-size: 36px;
+    margin-bottom: 20 px;
+    color: white;
+}
+
+.content-left p {
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.btn-signup {
+    font-family: 'Roboto-Thin', sans-serif;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-signup:hover{
+    background-color: #0056b3;
+}
+
+.content-right {
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-place {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*Section 2*/
+    .info-section {
+        padding: 50px;
+        background-color: white;
+        color: black;
+    }
+
+    .info-title {
+        font-family: 'Roboto-BoldItalic', sans-serif;
+        text-align: center;
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+
+
+
+    .info-content {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        max-width: 1200px;
+        margin: 20 auto;
+    }
+
+    .info-text {
+        margin-bottom: 40px;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .info-text p {
+        font-family: 'Roboto-Medium', sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    } 
+
+    .box {
+        width: 250px;
+        height: 150px;
+        border: 2px solid #007bff;
+        background-color: white;
+        margin-bottom: 20px;
+        border-radius: 15px;
+    }
+
+
+    /*Footer*/
+
+.second-section{
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.quote{
+    border-radius: 3px;
+    padding: 40px;
+}
+
+.qtext{
+    font-family: 'Roboto-Regular', sans-serif;
+    padding-left: 3em;
+    padding-top: 3em;
+    padding-bottom: 5px;
+    padding-right: 3em;
+}
+
+.signature {
+    font-family: 'Roboto-Bold', sans-serif;
+    text-align: right;
+    padding-bottom: 3em;
+    padding-right: 3em;
+}
+
+.third-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+}
+
+.blue-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    max-width: 800px;
+    background-color: #007bff;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.text-box{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+
+.call{
+    font-family: 'Roboto-Bold', sans-serif;
+    padding-top: 15px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.reason{
+    font-family: 'Roboto-ThinItalic', sans-serif;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    text-align: left; 
+}
+
+.signUp-btn{
+    font-family: 'Roboto-Italic', sans-serif;
+    background-color: #007bff;
+    color: white;
+    border-color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    margin-left: 4em;
+    cursor: pointer;
+    
+}
+
+.signUp-btn:hover{
+    background-color: #0056b3;
+}
+
+
+/*
+Footer
+*/
+.footer {
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000435;
+    padding: 20px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.copyright{
+    font-family: 'Roboto-Black', sans-serif;
+    color: white;
+    padding: 2em 2em;
+}
+
+
+
+
+/* Page 2 */
+
+.post-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .post {
+    background-color: white;
+    width: 30%;
+    border: 3px solid #000435;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .post h3 {
+    font-family: 'Roboto-Black', sans-serif;
+    margin-top: 0;
+    font-size: 1.2rem;
+  }
+  
+  .post p {
+    font-family: 'Roboto-Italic', sans-serif;
+    color: grey;
+  }
+  
+
+
+/* Page 3 */
+
+  .weather-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  .weather-data{
+
+    background-color: white;
+    width: 30%;
+    border: 3px solid #000435;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+     
+  }
+
+  .weather-data h3{
+    font-family: 'Roboto-Black', sans-serif;
+    margin-top: 0;
+    font-size: 1.2rem;
+  }
+
+  .weather-data p {
+    font-family: 'Roboto-Regular', sans-serif;
+  }
+
+
+
+
+
+
+
